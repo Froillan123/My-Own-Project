@@ -49,6 +49,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
     flex-wrap: wrap;
 }
 .box{
@@ -83,9 +84,11 @@ body{
     display: block;
     text-align: center;
     margin: 20px 50px;
+    transition: 0.3s;
 }
 .box:hover{
     background-color: black;
     color: white;
+    transform: scale(1.1);
     cursor: pointer;
 }
